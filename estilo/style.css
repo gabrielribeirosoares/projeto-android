@@ -32,10 +32,14 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color:var(--cor0);
     font-family:var(--fonte-padrao);
+
 }
 
 a.externo::after {
@@ -212,8 +216,4 @@ footer > p > a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
-}
-
-html {
-    scroll-behavior: smooth;
 }
